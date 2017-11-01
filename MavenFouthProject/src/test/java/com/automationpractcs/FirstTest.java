@@ -12,5 +12,6 @@ public class FirstTest implements SetUp{
 	  System.setProperty("webdriver.gecko.driver","D:\\JARS\\geckodriver.exe");
 	  WebDriver driver=new FirefoxDriver();
 	  driver.get(AUTOMATIONURL);
+	  System.out.println("murali git changes");
   }
 }
